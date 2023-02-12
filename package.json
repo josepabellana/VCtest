@@ -1,0 +1,29 @@
+{
+  "name": "foundamental-fullstack-challenge",
+  "version": "1.0.0",
+  "description": "Welcome to our fullstack challenge! :wave:",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git add . && git commit -m 'x' && git push",
+    "migrate": "npx prisma generate && npx prisma db push && npx prisma db seed"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josepabellana/VCtest.git"
+  },
+  "author": "josep abellana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josepabellana/VCtest/issues"
+  },
+  "homepage": "https://github.com/josepabellana/VCtest#readme",
+  "dependencies": {
+    "@prisma/client": "^4.10.1",
+    "prisma": "^4.10.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}

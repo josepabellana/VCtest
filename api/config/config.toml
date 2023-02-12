@@ -1,0 +1,4 @@
+[SQL]
+user = 'root'
+url = 'localhost:3306'
+db_name = 'vctest'
